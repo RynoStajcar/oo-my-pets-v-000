@@ -10,8 +10,8 @@ class Owner
 
   end
 
-  def all
-    @@owners
+  def self.all
+    @@owners.name
   end
 
   def self.count
