@@ -9,7 +9,7 @@ class Owner
     @@owners << name
 
   end
-  
+
   def self.all
     @@owners
   end
