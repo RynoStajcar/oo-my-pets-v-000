@@ -8,7 +8,6 @@ class Owner
   def initialize(species)
     @species = species
     @@owners << self
-
   end
 
   def self.all
@@ -23,7 +22,9 @@ class Owner
     @@owners.clear
   end
 
-
+  def say_species
+    self.species
+  end
 
 
 
