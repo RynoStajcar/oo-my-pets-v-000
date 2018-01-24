@@ -64,6 +64,6 @@ class Owner
       end
     end
     def list_pets
-      "I have #{fish.count}"
+      pets.each
     end
 end
