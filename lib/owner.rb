@@ -64,8 +64,7 @@ class Owner
       end
     end
     def list_pets
-      @pets.each do |animal|
-        animal.name
+      [:fishes]
       end
     end
 end
