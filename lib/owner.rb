@@ -22,7 +22,7 @@ class Owner
   def self.reset_all
     @@owners.clear
   end
- 
+
   def say_species
     "I am a #{@species}."
   end
@@ -32,7 +32,7 @@ class Owner
   end
 
   def buy_fish
-    self.pets
+    self.class.pets
   end
 
 
