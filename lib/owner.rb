@@ -64,7 +64,6 @@ class Owner
       end
     end
     def list_pets
-      [:fishes]
-      end
+      puts [:fishes]
     end
 end
