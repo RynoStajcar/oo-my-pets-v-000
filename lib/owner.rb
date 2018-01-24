@@ -56,6 +56,6 @@ class Owner
     end
 
     def sell_pets
-      pets.each {|type, pets| pets.empty}
+      pets.each {|type, pets| pets.clear}
     end
 end
