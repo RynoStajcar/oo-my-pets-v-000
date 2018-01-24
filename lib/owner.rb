@@ -64,6 +64,6 @@ class Owner
       end
     end
     def list_pets
-      pets.each
+      pets.name
     end
 end
